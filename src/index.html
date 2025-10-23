@@ -9,12 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(90deg, rgba(205, 207, 216, 0.85), rgba(243, 106, 209, 0.493));
+        }
+    </style>
 </head>
 
-<body class="font-sans">
-    <header>
+<body class="font-sans ">
+    <header class="fixed w-full bg-white shadow">
         <nav>
-            <div class="flex h-16 md:h-[72px] lg:h-20 justify-between p-2 xl:mx-[60px] 2xl:mx-[292.5px] font-sans">
+            <div class="flex h-16 md:h-[72px] lg:h-20 justify-between p-2 xl:mx-[60px] font-sans">
                 <div class="flex items-center">
                     <div class=" lg:hidden flex items-center px-4 h-10">
                         <i class="fa-solid fa-bars"></i>
@@ -35,122 +40,370 @@
                         <li><a href="#" class="py-3 px-5 mx-1 font-medium">Services</a></li>
                     </ul>
                     <p><a href="#"
-                            class="bg-[#9929fb] text-white py-[5.5px] md:py-3 md:text-[18px] px-3 md:px-5 font-semibold rounded-[10px]">Contact</a>
+                            class="bg-[#9929fb] text-white py-[5.5px] md:py-3 md:text-[18px] px-3 md:px-5 font-semibold rounded-[10px]  shadow-md shadow-[#9929fb]">Contact</a>
                     </p>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="">
-            <div class="">
-                <div class="flex flex-col-reverse px-4 pt-10 pb-2">
-                    <div class="">
-                        <div class="flex flex-col items-center pt-[52px]">
-                            <p class="text-3xl font-semibold flex flex-col items-center">Hello, I’m
+        <div class="bg-gradient-to-tr from-white via-green-100 to-pink-200">
+            <div class="xl:mx-[60px] 2xl:mx-[180px]">
+                <div
+                    class="flex flex-col-reverse px-4 pt-10 pb-2 md:items-center md:justify-between lg:flex-row lg:justify-between lg:mb-[110px] lg:pt-[120px] xl:px-2 xl:h-[770px] xl:justify-normal">
+                    <div
+                        class="flex flex-col w-full h-[405px] lg:w-[510.8px] lg:h-[561.4px] md:h-[474px] xl:w-[768px] xl:h-[636px] xl:justify-between">
+                        <div class="flex flex-col items-center pt-[52px] lg:items-start lg:mr-[126px] xl:w-[642px]">
+                            <p
+                                class="text-3xl sm:text-4xl font-semibold flex flex-col items-center md:w-full md:text-5xl lg:items-start xl:text-6xl">
+                                Hello, I’m
                                 <span class="text-nowrap">Brooklyn Gilbert</span>
                             </p>
-                            <p class="text-[12px] my-6 text-center text-balance ">I'm a Freelance <span>UI/UX
+                            <p class="text-[12px] my-6 text-center text-balance sm:text-[18px] lg:text-start">I'm a
+                                Freelance <span>UI/UX
                                     Designer</span> and <span>Developer</span> based in London, England. I strives to
                                 build
                                 immersive and beautiful web applications through carefully crafted code and user-centric
                                 design.</p>
-                            <p class=" bg-[#9929fb] text-center"><a href="#"
-                                    class="px-2 text-[11px] w-[53.3px] h-6 text-white shadow-[0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000)] ">Say
-                                    Hello!</a></p>
+                            <p
+                                class=" bg-[#9929fb] text-center md:px-5 md:py-2.5 rounded-[6px] shadow-md shadow-[#9929fb]">
+                                <a href="#"
+                                    class="px-2 text-[11px] sm:text-[18px] w-[53.3px] lg:text-[18px] h-6 text-white ">Say
+                                    Hello!</a>
+                            </p>
                         </div>
-                        <div>
+                        <div class="md:mx-[36.4px] lg:mx-0 ">
                             <div class="flex gap-1 items-center mt-10 ">
-                                <div class="bg-[#f6ebfe] items-center h-[88px]">
-                                    <div class=" my-5 mx-2 w-[77.3px] flex flex-col items-center">
-                                        <p class="text-gray-700 font-semibold">15 Y.</p>
-                                        <p class="text-gray-500 text-[8px] px-[14.4px]">Experience</p>
+                                <div
+                                    class="bg-[#f6ebfe] items-center h-[88px] md:h-[106px] md:w-[218.3px] lg:h-[130px] lg:w-[167.6px] xl:h-[106px] xl:w-[218.3px]">
+                                    <div
+                                        class=" my-5 mx-2 w-[77.3px] flex flex-col items-center md:my-[17px] md:mx-4 md:w-[186.3px] lg:w-[135.6px] xl:h-[72px] xl:w-[186.3px]">
+                                        <p class="text-gray-700 font-semibold md:text-[32px]  md:font-bold">15 Y.</p>
+                                        <p class="text-gray-500 text-[8px] px-[14.4px] md:text-[16px] ">Experience</p>
                                     </div>
                                 </div>
-                                <div class="bg-[#f6ebfe]  items-center  h-[88px]">
-                                    <div class=" my-5 mx-2 w-[77.3px] h-[36px] flex flex-col items-center">
-                                        <p class="text-gray-700 font-semibold">250+</p>
-                                        <p class="text-gray-500 text-[8px] text-wrap px-[14.4px] text-center">Project
+                                <div
+                                    class="bg-[#f6ebfe]  items-center  h-[88px] md:h-[106px] md:w-[218.3px]  lg:h-[130px] lg:w-[167.6px] xl:h-[106px] xl:w-[218.3px]">
+                                    <div
+                                        class=" my-5 mx-2 w-[77.3px] h-[36px] flex flex-col items-center md:my-[17px] md:mx-4 md:w-[186.3px] lg:w-[135.6px] xl:h-[72px] xl:w-[186.3px]">
+                                        <p class="text-gray-700 font-semibold md:text-[32px]  md:font-bold">250+</p>
+                                        <p
+                                            class="text-gray-500 text-[8px] text-wrap px-[14.4px] text-center md:text-[16px] ">
+                                            Project
                                             Completed</p>
                                     </div>
                                 </div>
-                                <div class="bg-[#f6ebfe] items-center  h-[88px]">
-                                    <div class=" my-5 mx-2  w-[77.3px] h-[36px] flex flex-col items-center">
-                                        <p class="text-gray-700 font-semibold">58</p>
-                                        <p class="text-gray-500 text-[8px] px-[14.4px] text-wrap text-center ">Happy
+                                <div
+                                    class="bg-[#f6ebfe] items-center  h-[88px] md:h-[106px] md:w-[218.3px]  lg:h-[130px] lg:w-[167.6px] xl:h-[106px] xl:w-[218.3px]">
+                                    <div
+                                        class=" my-5 mx-2  w-[77.3px] h-[36px] flex flex-col items-center md:my-[17px] md:mx-4 md:w-[186.3px] lg:w-[135.6px] lg:h-[96px] xl:h-[72px] xl:w-[186.3px]">
+                                        <p class="text-gray-700 font-semibold md:text-[32px] md:font-bold">58</p>
+                                        <p
+                                            class="text-gray-500 text-[8px] px-[14.4px] text-wrap text-center md:text-[16px] ">
+                                            Happy
                                             Clients</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <img src="photo/person-CqOZwXV1.png" alt="">
+                    <div
+                        class="md:w-[600px] lg:w-[473.1px] lg:h-[561.4px] md:flex md:justify-center xl:w-[536px] xl:h-[636px] 2xl:w-full">
+                        <img src="photo/person-CqOZwXV1.png" alt=""
+                            class="bg-white rounded-2xl w-full md:h[636px] md:w-[536px] lg:h-[561.4px] lg:w-full xl:w-full xl:h-full 2xl:w-full">
                     </div>
                 </div>
-                <div class="mx-4 mb-5 p-4">
-                    <div class="h-[900.5px] w-[256px] relative flex flex-col justify-between">
-                        <div class="h-[536.5px]">
-                            <div class="h-[468px] overflow-hidden rounded-[10px]">
+                <div class="relative top-20 lg:top-28 mx-4 mb-5 md:mx-4 bg-white rounded-2xl shadow-2xl ">
+                    <div
+                        class="flex flex-col p-4 gap-6 md:flex-row md:p-16 lg:p-20 xl:p-28 lg:flex-row items-center justify-between md:gap-0">
+                        <div class="relative md:w-[264px] h-[536.5px] xl:w-[424px]">
+                            <div class="overflow-hidden rounded-[10px] h-[468px] lg:w-[359.8px]">
                                 <img src="photo/person2-DvYIsw9m.png"
-                                    class="h-[561.5px] object-cover bg-[#f0f1f3] rounded-[10px]" alt="person">
+                                    class="h-[561.5px] w-[359.8px] object-cover bg-[#f0f1f3] rounded-[10px] md:w-[264px] lg:h-[561.5px] lg:w-full"
+                                    alt="person">
                             </div>
-                        </div>
-                        <div class="absolute top-[430px] ">
-                            <div class="flex justify-center align-middle w-[256px]">
-                                <div class="h-[68.5px] w-[218px] px-6 py-3 flex items-center bg-gray-200 rounded-[8px]">
-                                    <a href="#" class="pt-3 p-2 hover:bg-[#9929fb] "><i
-                                            class="fa-brands fa-facebook-f text-[#9929fb] text-[16px] h-5 hover:text-white"></i></a>
-                                    <a href="#" class="pt-3 p-2 hover:bg-[#9929fb]"><i
-                                            class="fa-brands fa-dribbble text-[#9929fb] text-[16px] h-5 hover:text-white"></i></a>
-                                    <a href="#" class="pt-3 p-2 hover:bg-[#9929fb]"><i
-                                            class="fa-brands fa-instagram text-[#9929fb] text-[16px] h-5 hover:text-white"></i></a>
-                                    <a href="#" class="pt-3 p-2 hover:bg-[#9929fb]"><i
-                                            class="fa-brands fa-linkedin text-[#9929fb] text-[16px] h-5 hover:text-white"></i></a>
-                                    <a href="#" class="pt-3 p-2 hover:bg-[#9929fb]"><i
-                                            class="fa-brands fa-behance text-[#9929fb] text-[16px] h-5 hover:text-white"></i></a>
+                            <div class="absolute top-[430px] left-1/2 lg:left-[180px] transform -translate-x-1/2">
+                                <div class="flex justify-center w-[256px]">
+                                    <div
+                                        class="h-[68.5px] md:h-[83.5px] w-[218px] md:w-[264px] px-3 py-6 md:p-3 flex items-center bg-white rounded-[8px] shadow-lg shadow-gray-300">
+
+                                        <a href="#" class="p-2 pt-3 hover:bg-[#9929fb] rounded"><i
+                                                class="fa-brands fa-facebook-f text-[#9929fb] text-[18px] hover:text-white"></i></a>
+                                        <a href="#" class="p-2 pt-3 md:p-[15px] md:pt-5 hover:bg-[#9929fb] rounded"><i
+                                                class="fa-brands fa-dribbble text-[#9929fb] text-[18px] hover:text-white"></i></a>
+                                        <a href="#" class="p-2 pt-3 md:p-[15px] md:pt-5 hover:bg-[#9929fb] rounded"><i
+                                                class="fa-brands fa-instagram text-[#9929fb] text-[18px] hover:text-white"></i></a>
+                                        <a href="#" class="p-2 pt-3 md:p-[15px] md:pt-5 hover:bg-[#9929fb] rounded"><i
+                                                class="fa-brands fa-linkedin text-[#9929fb] text-[18px] hover:text-white"></i></a>
+                                        <a href="#" class="p-2 pt-3 md:p-[15px] md:pt-5 hover:bg-[#9929fb] rounded"><i
+                                                class="fa-brands fa-behance text-[#9929fb] text-[18px] hover:text-white"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <h2 class="mb-8 text-3xl font- text-center text-balance font-medium">I am Professional User
-                                Experience Designer</h2>
-                            <div>
-                                <p class="text-[12px] text-[#4a5565] text-center text-balance">I design and develop
-                                    services for customers specializing creating stylish, modern
-                                    websites, web services and online stores. My passion is to design digital user
-                                    experiences.</p>
-                                <p class="mt-3 text-[12px] text-[#4a5565] text-center text-balance">I design and develop
-                                    services for customers specializing creating
-                                    stylish, modern
-                                    websites, web services.</p>
-                            </div>
-                            <div class="mt-8 flex h-10 items-center">
+                        <div
+                            class="h-[340px] lg:w-[448.1px] lg:h-[404.4px] flex flex-col justify-center items-center md:w-[320px] md:items-start lg:items-start text-center lg:text-left xl:w-[528px]">
+                            <h2
+                                class="mb-8 text-3xl font-medium md:text-4xl md:text-left md:font-semibold lg:text-[38px]">
+                                I am Professional User Experience Designer</h2>
+                            <p class="text-[12px] text-[#4a5565] md:text-[16px] md:text-left lg:text-[18px]">
+                                I design and develop services for customers specializing creating stylish, modern
+                                websites, web services and online stores. My passion is to design digital user
+                                experiences.
+                            </p>
+                            <p class="mt-3 text-[12px] text-[#4a5565] md:text-[16px] md:text-left lg:text-[18px]">
+                                I design and develop services for customers specializing creating
+                                stylish, modern websites, web services.
+                            </p>
+
+                            <div class="mt-8 flex items-center  md:w-[320px] md:flex-row lg:justify-start lg:w-full">
                                 <a href="#!"
-                                    class="btn btn-primary xxs:btn-lg px-4 sm:px-6 xxs:py-3 text-xs xxs:text-[14px] sm:text-[16px] py-3 bg-[#9929fb] text-white rounded font-bold">
+                                    class="px-2 py-3 bg-[#9929fb] text-white rounded font-bold text-xs sm:text-base hover:bg-[#7c21d1] transition md:w-[140.2px] text-center shadow-md shadow-[#9929fb]">
                                     My Projects
                                 </a>
-                                <a href="#!" class="btn xxs:btn-lg px-4 sm:px-6 xxs:py-3 text-xs xxs:text-[14px] sm:text-[16px]
-                                             bg-white border transition-all duration-300 hover:border-picto-primary hover:text-picto-primary 
-                                             flex items-center gap-2 h-10 ml-4 rounded border-[#d4d4d4] font-bold">
+                                <a href="#!"
+                                    class="px-2 py-3 ml-4 border border-[#d4d4d4] rounded font-bold text-xs sm:text-base bg-white hover:border-[#9929fb] hover:text-[#9929fb] transition flex items-center gap-2">
                                     <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 512 512" class="w-4 h-4">
                                         <path fill="currentColor" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32v242.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 
-                                             0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 
-                                             0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 
-                                             0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 
-                                             64v32c0 35.3 28.7 64 64 64h384c35.3 0 
-                                             64-28.7 64-64v-32c0-35.3-28.7-64-64-64H346.5l-45.3 
-                                             45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 
-                                             56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+                                                0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 
+                                                0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 
+                                                0L288 274.7V32zM64 352c-35.3 0-64 28.7-64  
+                                                64v32c0 35.3 28.7 64 64 64h384c35.3 0  
+                                                64-28.7 64-64v-32c0-35.3-28.7-64-64-64H346.5l-45.3  
+                                                 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368  
+                                                56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
                                     </svg>
                                     Download CV
                                 </a>
                             </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-[#f0f1f3] pt-[120px]">
+            <div
+                class="px-4 py-5 flex flex-col md:py-10 justify-center align-middle items-center xl:flex-row xl:mx-[60px] xl:py-[140px] xl:px-2">
+                <div class="mb-3 md:mb-8 lg:pr-10 xl:pr-[143px] xl:w-[652px]">
+                    <p class="text-3xl font-medium text-center md:text-5xl xl:text-start">Work Process</p>
+                    <p class="mt-6 mb-4 text-[14px] text-center text-[#6a7282] md:text-[20px] xl:text-start">Driven by
+                        design and
+                        powered by code, I create digital interfaces that feel intuitive and perform
+                        seamlessly. Every layout, animation, and component is crafted with intention — merging usability
+                        with visual clarity,</p>
+                    <p class="mt-6 text-[14px]  text-center text-[#6a7282] md:text-[20px] xl:text-start">I blend clean
+                        design with
+                        efficient code to build engaging, user-friendly web experiences that stand out.</p>
+                </div>
+                <div class="my-2 flex flex-wrap items-center justify-center gap-2 md:w-[648px] ">
+                    <div
+                        class="p-4 mt-3 bg-white rounded-2xl h-[163px] md:h-[304px] md:w-[312px] md:p-8 md:mb-6 md:mt-0">
+                        <div
+                            class="h-11 w-11 flex bg-[#edd8ff80] hover:bg-[#A53DFF] hover:fill-white items-center justify-center rounded md:h-[72px] md:w-[72px]">
+                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="max-sm:p-2 sm:w-8 sm:h-8">
+                                <path
+                                    d="M21.3333 18.6667H10.6667C10.313 18.6667 9.97391 18.8072 9.72386 19.0573C9.47381 19.3073 9.33333 19.6465 9.33333 20.0001C9.33333 20.3537 9.47381 20.6928 9.72386 20.9429C9.97391 21.1929 10.313 21.3334 10.6667 21.3334H21.3333C21.687 21.3334 22.0261 21.1929 22.2761 20.9429C22.5262 20.6928 22.6667 20.3537 22.6667 20.0001C22.6667 19.6465 22.5262 19.3073 22.2761 19.0573C22.0261 18.8072 21.687 18.6667 21.3333 18.6667ZM21.3333 13.3334H13.3333C12.9797 13.3334 12.6406 13.4739 12.3905 13.7239C12.1405 13.974 12 14.3131 12 14.6667C12 15.0204 12.1405 15.3595 12.3905 15.6096C12.6406 15.8596 12.9797 16.0001 13.3333 16.0001H21.3333C21.687 16.0001 22.0261 15.8596 22.2761 15.6096C22.5262 15.3595 22.6667 15.0204 22.6667 14.6667C22.6667 14.3131 22.5262 13.974 22.2761 13.7239C22.0261 13.4739 21.687 13.3334 21.3333 13.3334ZM26.6667 5.33341H22.6667V4.00008C22.6667 3.64646 22.5262 3.30732 22.2761 3.05727C22.0261 2.80722 21.687 2.66675 21.3333 2.66675C20.9797 2.66675 20.6406 2.80722 20.3905 3.05727C20.1405 3.30732 20 3.64646 20 4.00008V5.33341H17.3333V4.00008C17.3333 3.64646 17.1929 3.30732 16.9428 3.05727C16.6928 2.80722 16.3536 2.66675 16 2.66675C15.6464 2.66675 15.3072 2.80722 15.0572 3.05727C14.8071 3.30732 14.6667 3.64646 14.6667 4.00008V5.33341H12V4.00008C12 3.64646 11.8595 3.30732 11.6095 3.05727C11.3594 2.80722 11.0203 2.66675 10.6667 2.66675C10.313 2.66675 9.97391 2.80722 9.72386 3.05727C9.47381 3.30732 9.33333 3.64646 9.33333 4.00008V5.33341H5.33333C4.97971 5.33341 4.64057 5.47389 4.39052 5.72394C4.14048 5.97399 4 6.31313 4 6.66675V25.3334C4 26.3943 4.42143 27.4117 5.17157 28.1618C5.92172 28.912 6.93913 29.3334 8 29.3334H24C25.0609 29.3334 26.0783 28.912 26.8284 28.1618C27.5786 27.4117 28 26.3943 28 25.3334V6.66675C28 6.31313 27.8595 5.97399 27.6095 5.72394C27.3594 5.47389 27.0203 5.33341 26.6667 5.33341ZM25.3333 25.3334C25.3333 25.687 25.1929 26.0262 24.9428 26.2762C24.6928 26.5263 24.3536 26.6667 24 26.6667H8C7.64638 26.6667 7.30724 26.5263 7.05719 26.2762C6.80714 26.0262 6.66667 25.687 6.66667 25.3334V8.00008H9.33333V9.33342C9.33333 9.68704 9.47381 10.0262 9.72386 10.2762C9.97391 10.5263 10.313 10.6667 10.6667 10.6667C11.0203 10.6667 11.3594 10.5263 11.6095 10.2762C11.8595 10.0262 12 9.68704 12 9.33342V8.00008H14.6667V9.33342C14.6667 9.68704 14.8071 10.0262 15.0572 10.2762C15.3072 10.5263 15.6464 10.6667 16 10.6667C16.3536 10.6667 16.6928 10.5263 16.9428 10.2762C17.1929 10.0262 17.3333 9.68704 17.3333 9.33342V8.00008H20V9.33342C20 9.68704 20.1405 10.0262 20.3905 10.2762C20.6406 10.5263 20.9797 10.6667 21.3333 10.6667C21.687 10.6667 22.0261 10.5263 22.2761 10.2762C22.5262 10.0262 22.6667 9.68704 22.6667 9.33342V8.00008H25.3333V25.3334Z"
+                                    fill="#A53DFF" class="hover:fill-white"></path>
+                            </svg>
+                        </div>
+                        <div class="mt-3 md:mt-8">
+                            <p class="text-[16px] text-[#1b1718] font-bold md:text-[20px]">1. Research</p>
+                            <p class="mt-3 text-[14px] text-[#697482] md:text-[16px]">Design meets function in every
+                                pixel, blending
+                                clarity with intuitive motion.</p>
 
                         </div>
                     </div>
+                    <div
+                        class="p-4 mt-3 bg-white rounded-2xl h-[182.5px] md:h-[304px] md:w-[312px] md:p-8 md:mt-6 md:ml-3">
+                        <div
+                            class="h-11 w-11 flex bg-[#edd8ff80] hover:bg-[#A53DFF] hover:fill-white items-center justify-center rounded md:h-[72px] md:w-[72px]">
+                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="max-sm:p-2 sm:w-8 sm:h-8">
+                                <path
+                                    d="M9.33333 21.3334C9.86377 21.3334 10.3725 21.1227 10.7475 20.7476C11.1226 20.3726 11.3333 19.8638 11.3333 19.3334C11.3398 19.2669 11.3398 19.1999 11.3333 19.1334L15.0533 15.4134H15.36H15.6667L17.8133 17.5601C17.8133 17.5601 17.8133 17.6267 17.8133 17.6667C17.8133 18.1972 18.024 18.7059 18.3991 19.081C18.7742 19.456 19.2829 19.6667 19.8133 19.6667C20.3438 19.6667 20.8525 19.456 21.2275 19.081C21.6026 18.7059 21.8133 18.1972 21.8133 17.6667V17.5601L26.6667 12.6667C27.0622 12.6667 27.4489 12.5495 27.7778 12.3297C28.1067 12.1099 28.363 11.7976 28.5144 11.4321C28.6658 11.0667 28.7054 10.6645 28.6282 10.2766C28.5511 9.88861 28.3606 9.53224 28.0809 9.25253C27.8012 8.97283 27.4448 8.78235 27.0568 8.70518C26.6689 8.62801 26.2668 8.66761 25.9013 8.81899C25.5358 8.97036 25.2235 9.22671 25.0037 9.55561C24.784 9.88451 24.6667 10.2712 24.6667 10.6667C24.6602 10.7333 24.6602 10.8002 24.6667 10.8667L19.8533 15.6801H19.64L17.3333 13.3334C17.3333 12.803 17.1226 12.2943 16.7475 11.9192C16.3725 11.5441 15.8638 11.3334 15.3333 11.3334C14.8029 11.3334 14.2942 11.5441 13.9191 11.9192C13.544 12.2943 13.3333 12.803 13.3333 13.3334L9.33333 17.3334C8.8029 17.3334 8.29419 17.5441 7.91912 17.9192C7.54405 18.2943 7.33333 18.803 7.33333 19.3334C7.33333 19.8638 7.54405 20.3726 7.91912 20.7476C8.29419 21.1227 8.8029 21.3334 9.33333 21.3334ZM27.3333 26.6667H4.66667V4.00008C4.66667 3.64646 4.52619 3.30732 4.27614 3.05727C4.02609 2.80722 3.68696 2.66675 3.33333 2.66675C2.97971 2.66675 2.64057 2.80722 2.39052 3.05727C2.14048 3.30732 2 3.64646 2 4.00008V28.0001C2 28.3537 2.14048 28.6928 2.39052 28.9429C2.64057 29.1929 2.97971 29.3334 3.33333 29.3334H27.3333C27.687 29.3334 28.0261 29.1929 28.2761 28.9429C28.5262 28.6928 28.6667 28.3537 28.6667 28.0001C28.6667 27.6465 28.5262 27.3073 28.2761 27.0573C28.0261 26.8072 27.687 26.6667 27.3333 26.6667Z"
+                                    fill="#A53DFF" class="hover:fill-white"></path>
+                            </svg>
+                        </div>
+                        <div class="mt-3 md:mt-8">
+                            <p class="text-[16px] text-[#1b1718] font-bold md:text-[20px]">2. Analyze</p>
+                            <p class="mt-3 text-[14px] text-[#697482] md:text-[16px]">Crafting clean, thoughtful
+                                interfaces where form
+                                flows seamlessly into function and clarity.</p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="p-4 mt-3 bg-white rounded-2xl h-[182.5px] md:h-[304px] md:w-[312px] md:p-8 md:mb-6 md:mt-0">
+                        <div
+                            class="h-11 w-11 flex bg-[#edd8ff80] hover:bg-[#A53DFF] hover:fill-white items-center justify-center rounded md:h-[72px] md:w-[72px]">
+                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="max-sm:p-2 sm:w-8 sm:h-8">
+                                <path
+                                    d="M29.3333 9.65319C29.3343 9.47772 29.3007 9.30377 29.2343 9.14132C29.168 8.97887 29.0702 8.83111 28.9466 8.70653L23.2933 3.05319C23.1687 2.92962 23.021 2.83185 22.8585 2.7655C22.6961 2.69915 22.5221 2.66551 22.3466 2.66653C22.1712 2.66551 21.9972 2.69915 21.8348 2.7655C21.6723 2.83185 21.5246 2.92962 21.4 3.05319L17.6266 6.82653L3.05331 21.3999C2.92974 21.5244 2.83197 21.6722 2.76562 21.8347C2.69927 21.9971 2.66563 22.1711 2.66665 22.3465V27.9999C2.66665 28.3535 2.80712 28.6926 3.05717 28.9427C3.30722 29.1927 3.64636 29.3332 3.99998 29.3332H9.65331C9.83988 29.3433 10.0265 29.3142 10.2011 29.2475C10.3756 29.1809 10.5343 29.0784 10.6666 28.9465L25.16 14.3732L28.9466 10.6665C29.0683 10.5373 29.1675 10.3886 29.24 10.2265C29.2528 10.1202 29.2528 10.0128 29.24 9.90653C29.2462 9.84446 29.2462 9.78192 29.24 9.71986L29.3333 9.65319ZM9.10665 26.6665H5.33331V22.8932L18.5733 9.65319L22.3466 13.4265L9.10665 26.6665ZM24.2266 11.5465L20.4533 7.77319L22.3466 5.89319L26.1066 9.65319L24.2266 11.5465Z"
+                                    fill="#A53DFF" class="hover:fill-white"></path>
+                            </svg>
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-[16px] text-[#1b1718] font-bold md:text-[20px]">3. Design</p>
+                            <p class="mt-3 text-[14px] text-[#697482] md:text-[16px]">I design seamless digital
+                                experiences with
+                                precision, purpose, and a touch of elegance.</p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="p-4 mt-3 bg-white rounded-2xl h-[182.5px] md:h-[304px] md:w-[312px] md:p-8 md:mt-6 md:ml-3">
+                        <div
+                            class="flex h-11 w-11 bg-[#edd8ff80] hover:bg-[#A53DFF] hover:fill-white items-center justify-center rounded md:h-[72px] md:w-[72px]">
+                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="max-sm:p-2 sm:w-8 sm:h-8">
+                                <path
+                                    d="M28 18.6668H26.6666V9.3335C26.6666 8.27263 26.2452 7.25521 25.4951 6.50507C24.7449 5.75492 23.7275 5.3335 22.6666 5.3335H9.33329C8.27243 5.3335 7.25501 5.75492 6.50487 6.50507C5.75472 7.25521 5.33329 8.27263 5.33329 9.3335V18.6668H3.99996C3.64634 18.6668 3.3072 18.8073 3.05715 19.0574C2.8071 19.3074 2.66663 19.6465 2.66663 20.0002V22.6668C2.66663 23.7277 3.08805 24.7451 3.8382 25.4953C4.58834 26.2454 5.60576 26.6668 6.66663 26.6668H25.3333C26.3942 26.6668 27.4116 26.2454 28.1617 25.4953C28.9119 24.7451 29.3333 23.7277 29.3333 22.6668V20.0002C29.3333 19.6465 29.1928 19.3074 28.9428 19.0574C28.6927 18.8073 28.3536 18.6668 28 18.6668ZM7.99996 9.3335C7.99996 8.97987 8.14044 8.64074 8.39048 8.39069C8.64053 8.14064 8.97967 8.00016 9.33329 8.00016H22.6666C23.0202 8.00016 23.3594 8.14064 23.6094 8.39069C23.8595 8.64074 24 8.97987 24 9.3335V18.6668H7.99996V9.3335ZM26.6666 22.6668C26.6666 23.0205 26.5262 23.3596 26.2761 23.6096C26.0261 23.8597 25.6869 24.0002 25.3333 24.0002H6.66663C6.313 24.0002 5.97387 23.8597 5.72382 23.6096C5.47377 23.3596 5.33329 23.0205 5.33329 22.6668V21.3335H26.6666V22.6668Z"
+                                    fill="#A53DFF" class="hover:fill-white"></path>
+                            </svg>
+                        </div>
+                        <div class="mt-3">
+                            <p class="text-[16px] text-[#1b1718] font-bold md:text-[20px]">4. Launch</p>
+                            <p class="mt-3 text-[14px] text-[#697482] md:text-[16px]">I craft digital products where
+                                thoughtful design meets performance-driven, responsive development.</p>
+
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+        </div>
+        <div class="my-10 p-2 flex flex-col justify-center items-center xl:mx-[60px] xl:my-[100px] xl:p-0">
+            <div class="mb-5">
+                <div class="px-2 md:mx-[87.5px] md:p-0 lg:mx-[215.5px] xl:mx-[371.5px]">
+                    <p class="text-3xl font-medium text-center md:text-5xl">Portfolio</p>
+                    <p class="text-[14px] text-[#99a1af] text-center text-balance pt-6 md:text-[18px]">Here's a selection of my recent
+                        work, showcasing my skills in creating user-centric and visually appealing interfaces.</p>
+                </div>
+            </div>
+            <div class="w-full flex justify-center">
+               <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-6 lg:w-[872px] xl:w-[1320px]">
+                 <div class="border rounded-[8px] border-[#ebe6e7] md:w-[362px] md:h-[463.7px] lg:w-[422px] lg:h-[498.8px]">
+                    <img src="photo/card-1-D83uj-qZ.png" alt="card-1" class="rounded-t-[8px]">
+                    <div class="p-4 rounded-b-[8px] md:p-8 md:h-[252px]">
+                        <p class="text-[12px] text-[#99a1af]">UI-UX DESIGN</p>
+                        <p class="pt-1 mb-3 text-[16px] font-medium md:text-[18px]">Product Admin Dashboard</p>
+                        <p class="text-[12px] text-[#4a5565] md:text-[14px] font-normal tracking-wider">I focus on crafting smooth, responsive interfaces that
+                            balance aesthetic appeal with practical functionality.</p>
+                        <a href="#!"
+                            class="flex flex-row justify-center items-center border border-[#e8eaec] hover:border-[#A53DFF] rounded gap-1.5 h-[38px] hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px]
+                             font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 hover:text-[#A53DFF] mt-5 xs:py-5.75 px-6 max-sm:w-full md:py-[23px] md:px-6 md:w-[170.58px]  md:text-[16px]">Case
+                            Study<span class="ms-1 xs:ms-3 w-[12.2px] h-[20px] flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-l w-[12.2px] h-[14px]" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                                    </path>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="border rounded-[8px] border-[#ebe6e7] md:w-[362px] md:h-[463.7px] lg:w-[422px] lg:h-[498.8px]">
+                    <img src="photo/card-2-BJ8-9N8h.png" alt="card-2" class="rounded-t-[8px]">
+                    <div class="p-4 rounded-b-[8px] md:p-8 md:h-[252px]">
+                        <p class="text-[12px] text-[#99a1af]">UI-UX DESIGN</p>
+                        <p class="pt-1 mb-3 text-[16px] font-medium md:text-[18px]">Product Admin Dashboard</p>
+                        <p class="text-[12px] text-[#4a5565] md:text-[14px] font-normal tracking-wider">Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.</p>
+                        <a href="#!"
+                            class="flex flex-row justify-center items-center border border-[#e8eaec] hover:border-[#A53DFF] rounded gap-1.5 h-[38px] hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px]
+                             font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 hover:text-[#A53DFF] mt-5 xs:py-5.75 px-6 max-sm:w-full md:py-[23px] md:px-6 md:w-[170.58px] md:text-[16px]">Case
+                            Study<span class="ms-1 xs:ms-3 w-[12.2px] h-[20px] flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-l w-[12.2px] h-[14px]" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                                    </path>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="border rounded-[8px] border-[#ebe6e7] md:w-[362px] md:h-[463.7px] lg:w-[422px] lg:h-[498.8px]">
+                    <img src="photo/card-3-Ka1ll87R.png" alt="card-3" class="rounded-t-[8px]">
+                    <div class="p-4 rounded-b-[8px] md:p-8 md:h-[252px]">
+                        <p class="text-[12px] text-[#99a1af]">UI-UX DESIGN</p>
+                        <p class="pt-1 mb-3 text-[16px] font-medium md:text-[18px]">Product Admin Dashboard</p>
+                        <p class="text-[12px] text-[#4a5565] md:text-[14px] font-normal tracking-wider">Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.</p>
+                        <a href="#!"
+                            class="flex flex-row justify-center items-center border border-[#e8eaec] hover:border-[#A53DFF] rounded gap-1.5 h-[38px] hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px]
+                             font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 hover:text-[#A53DFF] mt-5 xs:py-5.75 px-6 max-sm:w-full md:py-[23px] md:px-6 md:w-[170.58px]  md:text-[16px]">Case
+                            Study<span class="ms-1 xs:ms-3 w-[12.2px] h-[20px] flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-l w-[12.2px] h-[14px]" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                                    </path>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="border rounded-[8px] border-[#ebe6e7] md:w-[362px] md:h-[463.7px] lg:w-[422px] lg:h-[498.8px]">
+                    <img src="photo/card-4-1lvzje-u.png" alt="card-4" class="rounded-t-[8px]">
+                    <div class="p-4 rounded-b-[8px] md:p-8 md:h-[252px]">
+                        <p class="text-[12px] text-[#99a1af]">UI-UX DESIGN</p>
+                        <p class="pt-1 mb-3 text-[16px] font-medium md:text-[18px]">Product Admin Dashboard</p>
+                        <p class="text-[12px] text-[#4a5565] md:text-[14px] font-normal tracking-wider">Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.</p>
+                        <a href="#!"
+                            class="flex flex-row justify-center items-center border border-[#e8eaec] hover:border-[#A53DFF] rounded gap-1.5 h-[38px] hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px]
+                             font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 hover:text-[#A53DFF] mt-5 xs:py-5.75 px-6 max-sm:w-full md:py-[23px] md:px-6 md:w-[170.58px]  md:text-[16px]">Case
+                            Study<span class="ms-1 xs:ms-3 w-[12.2px] h-[20px] flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-l w-[12.2px] h-[14px]" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                                    </path>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="border rounded-[8px] border-[#ebe6e7] md:w-[362px] md:h-[463.7px] lg:w-[422px] lg:h-[498.8px]">
+                    <img src="photo/card-5-TrbU7d8r.png" alt="card-5" class="rounded-t-[8px]">
+                    <div class="p-4 rounded-b-[8px] md:p-8 md:h-[252px]">
+                        <p class="text-[12px] text-[#99a1af]">UI-UX DESIGN</p>
+                        <p class="pt-1 mb-3 text-[16px] font-medium md:text-[18px]">Product Admin Dashboard</p>
+                        <p class="text-[12px] text-[#4a5565] md:text-[14px] font-normal tracking-wider">Implemented interactive charts and widgets to visualize product data effectively for stakeholders.</p>
+                        <a href="#!"
+                            class="flex flex-row justify-center items-center border border-[#e8eaec] hover:border-[#A53DFF] rounded gap-1.5 h-[38px] hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px]
+                             font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 hover:text-[#A53DFF] mt-5 xs:py-5.75 px-6 max-sm:w-full md:py-[23px] md:px-6 md:w-[170.58px]  md:text-[16px]">Case
+                            Study<span class="ms-1 xs:ms-3 w-[12.2px] h-[20px] flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-l w-[12.2px] h-[14px]" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                                    </path>
+                                </svg></span></a>
+                    </div>
+                </div>
+                <div class="border rounded-[8px] border-[#ebe6e7] md:w-[362px] md:h-[463.7px] lg:w-[422px] lg:h-[498.8px]">
+                    <img src="photo/card-6-CMi2awuo.png" alt="card-6" class="rounded-t-[8px]">
+                    <div class="p-4 rounded-b-[8px] md:p-8 md:h-[252px]">
+                        <p class="text-[12px] text-[#99a1af]">UI-UX DESIGN</p>
+                        <p class="pt-1 mb-3 text-[16px] font-medium md:text-[18px]">Product Admin Dashboard</p>
+                        <p class="text-[12px] text-[#4a5565] md:text-[14px] font-normal tracking-wider">Enhanced user experience by streamlining workflows and optimizing interface components and so on.</p>
+                        <a href="#!"
+                            class="flex flex-row justify-center items-center border border-[#e8eaec] hover:border-[#A53DFF] rounded gap-1.5 h-[38px] hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px]
+                             font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 hover:text-[#A53DFF] mt-5 xs:py-5.75 px-6 max-sm:w-full md:py-[23px] md:px-6 md:w-[170.58px]  md:text-[16px]">Case
+                            Study<span class="ms-1 xs:ms-3 w-[12.2px] h-[20px] flex items-center"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="arrow-right" class="svg-inline--fa fa-arrow-right fa-l w-[12.2px] h-[14px]" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                                    </path>
+                                </svg></span></a>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="h-[90px] w-full items-center flex justify-center ">
+                <a href="#!"
+                           class="px-6 py-3 bg-[#9929fb] text-white rounded font-semibold text-[16px] hover:bg-[#7c21d1] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 text-center shadow-md shadow-[#9929fb] mt-[50px] ">
+                            More Project
+                    </a>
             </div>
         </div>
     </main>
