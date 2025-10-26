@@ -1,1 +1,10 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url(fonts/WorkSans-Regular.ttf);
+}
+
 @import "tailwindcss";
+
+@theme{
+    --font-WorkSans: "Work Sans";
+}
