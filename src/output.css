@@ -228,9 +228,6 @@
   .top-\[430px\] {
     top: 430px;
   }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
-  }
   .left-1\/2 {
     left: calc(1/2 * 100%);
   }
@@ -323,9 +320,6 @@
   }
   .hidden {
     display: none;
-  }
-  .table {
-    display: table;
   }
   .h-3 {
     height: calc(var(--spacing) * 3);
@@ -441,13 +435,6 @@
   .w-full {
     width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .-translate-x-1 {
-    --tw-translate-x: calc(var(--spacing) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -457,9 +444,6 @@
   }
   .cursor-grab {
     cursor: grab;
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -672,9 +656,6 @@
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
   }
-  .pb-17 {
-    padding-bottom: calc(var(--spacing) * 17);
-  }
   .pb-17\.5 {
     padding-bottom: calc(var(--spacing) * 17.5);
   }
@@ -812,9 +793,6 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -842,10 +820,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       --tw-shadow-color: color-mix(in oklab, var(--color-gray-300) var(--tw-shadow-alpha), transparent);
     }
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
@@ -1067,16 +1041,6 @@
   .md\:mx-\[106px\] {
     @media (width >= 48rem) {
       margin-inline: 106px;
-    }
-  }
-  .md\:mx-\[875px\] {
-    @media (width >= 48rem) {
-      margin-inline: 875px;
-    }
-  }
-  .md\:mx-\[8705px\] {
-    @media (width >= 48rem) {
-      margin-inline: 8705px;
     }
   }
   .md\:my-\[6\.6px\] {
@@ -1476,19 +1440,9 @@
       margin-inline: calc(var(--spacing) * 0);
     }
   }
-  .lg\:mx-\[13\] {
-    @media (width >= 64rem) {
-      margin-inline: 13;
-    }
-  }
   .lg\:mx-\[100px\] {
     @media (width >= 64rem) {
       margin-inline: 100px;
-    }
-  }
-  .lg\:mx-\[139\.5\] {
-    @media (width >= 64rem) {
-      margin-inline: 139.5;
     }
   }
   .lg\:mx-\[139\.5px\] {
@@ -1877,24 +1831,9 @@
       height: 100%;
     }
   }
-  .\32 xl\:w-\[0px\] {
-    @media (width >= 96rem) {
-      width: 0px;
-    }
-  }
   .\32 xl\:w-\[580px\] {
     @media (width >= 96rem) {
       width: 580px;
-    }
-  }
-  .\32 xl\:w-\[600px\] {
-    @media (width >= 96rem) {
-      width: 600px;
-    }
-  }
-  .\32 xl\:w-\[700px\] {
-    @media (width >= 96rem) {
-      width: 700px;
     }
   }
   .\32 xl\:w-full {
@@ -2067,11 +2006,6 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -2133,7 +2067,6 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-ease: initial;
       --tw-scale-x: 1;
