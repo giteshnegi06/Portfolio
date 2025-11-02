@@ -2,11 +2,15 @@
     font-family: "Work Sans";
     src: url(fonts/WorkSans-Regular.ttf);
 }
+     @font-face {
+    font-family: 'SmithenGoulding';
+    src:url(fonts/SmithenGoulding-PKY6d.otf);
+    }
 
 @import "tailwindcss";
 
 @theme{
-    --font-WorkSans: "Work Sans";
+    --font-SmithenGoulding: "SmithenGoulding";
 }
 
 @theme {
